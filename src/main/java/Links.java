@@ -18,6 +18,7 @@ public class Links {
         driver.findElement(By.id("simpleLink")).click();
         String pageTitle = driver.getTitle();
         Assert.assertEquals("DEMOQA",pageTitle);
+        //line 22 switches the tab back to the original tab
         driver.switchTo().window(tabs.get(0));
         driver.quit();
     }
