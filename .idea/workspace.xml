@@ -5,52 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c33a66eb-5114-40f1-93e6-ef810c70e4b9" name="Default" comment="updated test">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/selenium/test/ToolTips.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Alerts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/selenium/test/Alerts.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/CrossBrowser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/selenium/test/CrossBrowser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/DatePicker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/selenium/test/DatePicker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Dialogs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/selenium/test/Dialogs.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Dropdown.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/selenium/test/Dropdown.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/First.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/selenium/test/First.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Frames.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/selenium/test/Frames.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/JunitTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/selenium/test/JunitTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Links.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/selenium/test/Links.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Second.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/selenium/test/Second.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TestNGTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/selenium/test/TestNGTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/UploadAndDownload.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/selenium/test/UploadAndDownload.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/buttons.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/selenium/test/buttons.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/selenium/test/configuration/TestsConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/selenium/test/configuration/properties/PropertiesLoader.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/selenium/test/configuration/properties/Property.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/selenium/test/configuration/properties/PropertyFile.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/selenium/test/exceptions/TestsConfigurationException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/selenium/test/utils/TimeUtils.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/selenium/test/webtestsbase/BasePage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/selenium/test/webtestsbase/Browser.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/selenium/test/webtestsbase/CapabilitiesGenerator.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/selenium/test/webtestsbase/WebDriverFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/selenium/test/junit/rules/ScreenShotOnFailRule.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/selenium/test/junit/tests/PageObjectTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/selenium/test/junit/tests/SimpleTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/selenium/test/pages/YouTubePage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/selenium/test/pages/YouTubeSearchResultsPage.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/selenium/test/testng/listeners/ScreenShotOnFailListener.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/selenium/test/testng/tests/PageObjectTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/selenium/test/testng/tests/SimpleTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/First.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/selenium/test/configuration/TestsConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/selenium/test/configuration/properties/PropertiesLoader.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/selenium/test/configuration/properties/Property.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/selenium/test/configuration/properties/PropertyFile.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/selenium/test/exceptions/TestsConfigurationException.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/selenium/test/utils/TimeUtils.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/selenium/test/webtestsbase/BasePage.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/selenium/test/webtestsbase/Browser.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/selenium/test/webtestsbase/CapabilitiesGenerator$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/selenium/test/webtestsbase/CapabilitiesGenerator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/selenium/test/webtestsbase/WebDriverFactory$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/selenium/test/webtestsbase/WebDriverFactory.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -162,7 +118,7 @@
       <recent name="com.selenium.test" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.buttons">
+  <component name="RunManager" selected="JUnit.ToolTips">
     <configuration default="true" type="Applet" factoryName="Applet">
       <module name="" />
       <option name="MAIN_CLASS_NAME" />
@@ -235,7 +191,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="JUnit" factoryName="JUnit">
+    <configuration name="ToolTips" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="selenium-app" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.selenium.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.selenium.test" />
+      <option name="MAIN_CLASS_NAME" value="com.selenium.test.ToolTips" />
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="TEST_SEARCH_SCOPE">
@@ -245,16 +210,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="/Users/godswaynyatuame/Documents/GitHub/Selenium/Workspace/Project_A/src/main/java/test.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="selenium-app" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/src/main/java/test.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="TEST_SEARCH_SCOPE">
         <value defaultName="moduleWithDependencies" />
       </option>
-      <properties />
-      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -282,11 +243,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ToolTips" />
         <item itemvalue="Application.buttons" />
         <item itemvalue="Application.First" />
         <item itemvalue="JUnit.JunitTest" />
         <item itemvalue="Application.DatePicker" />
-        <item itemvalue="TestNG./Users/godswaynyatuame/Documents/GitHub/Selenium/Workspace/Project_A/src/main/java/test.xml" />
       </list>
     </recent_temporary>
   </component>
@@ -344,7 +305,14 @@
       <option name="project" value="LOCAL" />
       <updated>1686064422314</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="updated test">
+      <created>1686065054605</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1686065054605</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
