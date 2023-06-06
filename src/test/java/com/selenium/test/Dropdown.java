@@ -1,3 +1,5 @@
+package com.selenium.test;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -9,6 +11,7 @@ public class Dropdown {
         WebDriver driver = new ChromeDriver();
         driver.get("");
         //selecting an item in dropdown
-        new Select(driver.findElement(By.id(""))).selectByValue("");
+        Select dropdown = new Select(driver.findElement(By.id("")));
+        dropdown.selectByValue("");
     }
 }

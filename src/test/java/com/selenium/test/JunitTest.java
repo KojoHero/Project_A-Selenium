@@ -1,17 +1,18 @@
+package com.selenium.test;
+
+import org.junit.After;
 import org.junit.Assert;
+import org.junit.Before;
+import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.WebDriverWait;
 
-public class First {
-    public static void main (String [] args){
-        System.setProperty("webdriver.chrome.driver", "/usr/local/bin/chromedriver");
-        WebDriver driver = new ChromeDriver();
-        driver.get("https://demoqa.com/elements");
-        driver.findElement(By.id("item-0")).click();
+public class JunitTest {
+    WebDriver driver;
+    @Test
+    public void JunitTestClass(){
         String name = "Test Account";
         driver.findElement(By.id("userName")).sendKeys(name);
         driver.findElement(By.id("userEmail")).sendKeys("Test@test.com");
@@ -21,6 +22,18 @@ public class First {
         driver.findElement(By.xpath("//*[text()='Submit']")).click();
         String reply = driver.findElement(By.id("name")).getText();
         Assert.assertTrue(reply.contains("Test"));
-        driver.close();
+        driver.quit();
+    }
+    @Before
+    public void BeforeTest(){
+        System.out.println("Beginning test");
+        System.setProperty("webdriver.chrome.driver","/usr/local/bin/chromedriver");
+        driver = new ChromeDriver();
+        driver.get("https://demoqa.com/text-box");
+    }
+    @After
+    public void afterTest(){
+        System.out.println("Test done");
+        driver.quit();
     }
 }

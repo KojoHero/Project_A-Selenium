@@ -1,3 +1,5 @@
+package com.selenium.test;
+
 import org.testng.Assert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
