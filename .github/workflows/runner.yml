@@ -1,0 +1,27 @@
+name: Selenium Tests
+
+on:
+  push:
+    branches:
+      - master
+  schedule:
+    - cron: "0 0 * * 5" # Runs every Friday midnight
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Set up JDK
+        uses: actions/setup-java@v2
+        with:
+          java-version: '11'
+
+      - name: Build with Maven
+        run: mvn package
+
+      - name: Run Selenium tests
+        run: mvn test
