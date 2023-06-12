@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c33a66eb-5114-40f1-93e6-ef810c70e4b9" name="Default" comment="updated test">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/selenium/test/ResizeTable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/selenium/test/Selectable.java" afterDir="false" />
+    <list default="true" id="c33a66eb-5114-40f1-93e6-ef810c70e4b9" name="Default" comment="added github actions">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -332,7 +330,28 @@
       <option name="project" value="LOCAL" />
       <updated>1686065054605</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="updated test">
+      <created>1686571898482</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1686571898482</updated>
+    </task>
+    <task id="LOCAL-00009" summary="added github actions">
+      <created>1686572253092</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1686572253092</updated>
+    </task>
+    <task id="LOCAL-00010" summary="added github actions">
+      <created>1686572350601</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1686572350601</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -381,7 +400,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="updated readme file" />
     <MESSAGE value="updated test" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated test" />
+    <MESSAGE value="added github actions" />
+    <option name="LAST_COMMIT_MESSAGE" value="added github actions" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

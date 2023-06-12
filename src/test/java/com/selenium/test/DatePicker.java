@@ -12,6 +12,8 @@ public class DatePicker {
         System.setProperty("webdriver.chrome.driver","/usr/local/bin/chromedriver");
         WebDriver driver = new ChromeDriver();
         driver.get("https://demoqa.com/date-picker");
+
+        //selecting a date
         driver.findElement(By.id("datePickerMonthYearInput")).click();
         Select month = new Select(driver.findElement(By.className("react-datepicker__month-select")));
         month.selectByValue("1");
