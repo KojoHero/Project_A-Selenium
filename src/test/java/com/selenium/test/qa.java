@@ -18,7 +18,7 @@ public class qa {
         type(driver,"user-name", "standard_user");
         type(driver,"password", "secret_sauce");
         clickElement(driver,"login-button");
-//        driver.findElement(By.id("login-button")).click();
+//       driver.findElement(By.id("login-button")).click();
 
         //add items to cart
         clickElement(driver,"add-to-cart-sauce-labs-backpack");
