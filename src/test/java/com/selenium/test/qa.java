@@ -15,8 +15,8 @@ public class qa {
         System.setProperty("webdriver.chrome.driver","/usr/local/bin/chromedriver");
         WebDriver driver = new ChromeDriver();
         driver.get("https://www.saucedemo.com/");
-        driver.findElement(By.id("user-name")).sendKeys("standard_user");
-        driver.findElement(By.id("password")).sendKeys("secret_sauce");
+        type(driver,"user-name", "standard_user");
+        type(driver,"password", "secret_sauce");
         clickElement(driver,"login-button");
 //        driver.findElement(By.id("login-button")).click();
 
@@ -42,9 +42,9 @@ public class qa {
         clickElement(driver,"checkout");
 
         //fill checkout form
-        driver.findElement(By.id("first-name")).sendKeys("Test");
-        driver.findElement(By.id("last-name")).sendKeys("Ignore");
-        driver.findElement(By.id("postal-code")).sendKeys("001");
+        type(driver,"first-name", "Test");
+        type(driver,"last-name", "Ignore");
+        type(driver,"postal-code", "001");
 
         //click to main checkout page
         clickElement(driver,"continue");
@@ -86,6 +86,11 @@ public class qa {
 
     public static boolean clickElement(WebDriver driver, String selector){
         driver.findElement(By.id(selector)).click();
+        return true;
+    }
+
+    public static boolean type(WebDriver driver, String selector, String inputText){
+        driver.findElement(By.id(selector)).sendKeys(inputText);
         return true;
     }
 }
