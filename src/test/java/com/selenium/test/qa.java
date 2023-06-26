@@ -62,6 +62,10 @@ public class qa {
         Float totalPriceOfItem = backPackPrice + tShirtPrice + onesiePrice + taxAmount;
 
         Assert.assertEquals(totalPriceOfItem,totalPrice);
+
+        clickElement(driver,"finish");
+
+        driver.getPageSource().contains("Thank you for your order!");
         driver.quit();
     }
 
