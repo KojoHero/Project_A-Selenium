@@ -40,8 +40,7 @@ public class UploadAndDownload {
 
         WebElement uploadElement = driver.findElement(By.id("uploadFile"));
         uploadElement.sendKeys("/Users/godswaynyatuame/Documents/GitHub/Selenium/Workspace/Project_A/src/image");
+        driver.getPageSource().contains("C:\\fakepath\\sampleFile.jpeg");
         driver.quit();
     }
-
-
 }

@@ -1,27 +1,53 @@
-name: Selenium Tests
+#name: Selenium Tests
+#
+#on:
+#  push:
+#    branches:
+#      - main
+#  schedule:
+#    - cron: "0 0 * * 5" # Runs every Friday midnight
+#
+#jobs:
+#  build:
+#    runs-on: ubuntu-latest
+#
+#    steps:
+#      - name: Checkout repository
+#        uses: actions/checkout@v2
+#
+#      - name: Set up JDK
+#        uses: actions/setup-java@v2
+#        with:
+#          java-version: '11'
+#
+#      - name: Build with Maven
+#        run: mvn package
+#
+#      - name: Run Selenium tests
+#        run: mvn test
+
+name: Selenium Java Tests
 
 on:
   push:
     branches:
       - main
-  schedule:
-    - cron: "0 0 * * 5" # Runs every Friday midnight
 
 jobs:
-  build:
+  test:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repository
+      - name: Checkout code
         uses: actions/checkout@v2
 
       - name: Set up JDK
         uses: actions/setup-java@v2
         with:
-          java-version: '11'
+          java-version: 1.11
+
+      - name: Set up Chrome WebDriver
+        uses: nanasess/setup-chromedriver@v1
 
       - name: Build with Maven
-        run: mvn package
-
-      - name: Run Selenium tests
-        run: mvn test
+        run: mvn clean test
